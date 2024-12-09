@@ -6,8 +6,7 @@ import vitaminsIcon from "@/assets/vitaminsIcon.jpg";
 import weightLossIcon from "@/assets/weightLossIcon.png";
 import { HeroAvatar } from "@/components/HeroAvatar";
 
-
-export const HeroSection = () => {
+const HeroSection = () => {
   return (
     <div className="container mx-auto mt-20 pb-56 bg-[#E2F5FB] relative">
       <div className="flex flex-col gap-6 items-center pt-16 w-full max-w-6xl mx-auto  px-4 lg:px-24">
@@ -64,3 +63,5 @@ export const HeroSection = () => {
     </div>
   );
 };
+
+export default HeroSection;

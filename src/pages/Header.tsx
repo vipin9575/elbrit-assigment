@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "@/assets/image.png";
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className="w-full fixed top-0 bg-white z-50">
       <div className="container mx-auto flex items-center py-1.5 px-36">
@@ -10,3 +10,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
